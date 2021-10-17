@@ -733,6 +733,18 @@ p {
 
 /* responsive */
 
+@media (min-width: 400px) and (max-width:767px) {
+  #pengumuman .card{
+    margin-left: 4rem;
+  }
+}
+
+@media (min-width: 300px) and (max-width:399px) {
+  #pengumuman .card{
+    margin-left: 2rem;
+  }
+}
+
 @media (max-width: 767px) {
   #informasi .informasi {
     padding-bottom: 10px;

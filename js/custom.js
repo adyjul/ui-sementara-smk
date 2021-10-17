@@ -77,7 +77,8 @@
     autoplay: true,
     dots: false,
     loop: true,
-    nav: true,    
+    nav: true, 
+    margin : 80,   
     responsive: {
       0: {
         items: 1,
