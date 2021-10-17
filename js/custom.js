@@ -73,11 +73,11 @@
     },
   });
 
-  $(".guru").owlCarousel({
+  $(".card-content").owlCarousel({
     autoplay: true,
     dots: false,
     loop: true,
-    nav: true,
+    nav: true,    
     responsive: {
       0: {
         items: 1,
@@ -86,10 +86,10 @@
         items: 1,
       },
       768: {
-        items: 5,
+        items: 2,
       },
       992: {
-        items: 6,
+        items: 3,
       },
     },
   });
