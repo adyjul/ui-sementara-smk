@@ -685,7 +685,7 @@ p {
   width: 100%;
   margin-top: 40px;
   padding: 4rem;
-  padding-left: 12rem;
+  
   
 }
 
@@ -693,6 +693,7 @@ p {
   border: none;
   box-shadow: 0 0 0.999rem 0 rgb(33 37 41 / 23%);
   border-radius: 9px;
+  margin-bottom: 80px;
 }
 
 #page-berita .content-left .card .card-title{
@@ -731,6 +732,10 @@ p {
 #page-berita .content-right .recent-post{
   background-color: #f0f0f0;
   padding: 20px;
+}
+
+#page-berita .content-right .recent-post .card-sidebar{
+  margin-bottom: 30px;
 }
 
 /* end page berita */
@@ -790,6 +795,12 @@ p {
 /* end footer */
 
 /* responsive */
+
+@media (min-width : 200px) and (max-width : 767px) {
+  #page-berita .content-left{
+    padding: 2rem;
+  }
+}
 
 @media (min-width: 400px) and (max-width:767px) {
   #pengumuman .card{
